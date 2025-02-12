@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&display=swap');
+
+.presentation{
+    background-image: url(../../../public/images/background_apresentação.jpg);
+    background-size: cover;
+    background-position: center top;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    /* height: 600px; */
+}
+@media (min-height: 600px) {
+    .presentation{
+        height: 100vh;
+        max-height: 900px;
+    }
+}
+.hello p{
+    font-size: xx-large;
+    color: black;
+    font-family: 'Archivo Black';
+    text-indent: 25px;
+}
+.hello h1{
+    font-size: 7rem;
+    font-family: 'Anton';
+    color: var(--Azul_principal);
+    line-height: 100px;
+}
+.technology{
+    width: 400px;
+}
