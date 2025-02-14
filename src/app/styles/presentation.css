@@ -26,6 +26,12 @@
     color: var(--Azul_principal);
     line-height: 100px;
 }
+.ocupation{
+    text-indent: 0 !important;
+    font-size: 3rem !important;
+    line-height: 50px;
+}
 .technology{
     width: 400px;
+    filter: drop-shadow(5 5 10px #00000079);
 }
