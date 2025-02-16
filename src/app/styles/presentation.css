@@ -34,4 +34,17 @@
 .technology{
     width: 400px;
     filter: drop-shadow(5 5 10px #00000079);
+    animation: Float 3s linear infinite;
+}
+
+@keyframes Float {
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
 }
