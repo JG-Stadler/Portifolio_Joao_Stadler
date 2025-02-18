@@ -26,7 +26,7 @@ export default function NavigationMenu(){
                 </button>
             </div>      
             <nav className={MenuState}>
-                <ul className="nav-list d-flex align-items-center m-0">
+                <ul className="nav-list d-flex align-items-center p-0 m-0">
                     <li className="nav-item"><a href="#" className="nav-link">Linkedin</a></li>
                     <li className="nav-item"><a href="#" className="nav-link">GitHub</a></li>
                     <li className="nav-item"><a href="#" className="nav-link">Curriculo</a></li>

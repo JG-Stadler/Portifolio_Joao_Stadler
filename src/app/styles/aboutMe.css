@@ -1,0 +1,19 @@
+.about-me-section{
+    margin: 40px 0;
+}
+.j_stadler-picture img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40% 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.605);
+}
+.about-me-txt{
+    width: 600px;
+    max-width: 90vw;
+}
+.about-me-txt h1{
+    font-weight: bolder;
+    color: var(--Azul_principal);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.192);
+}
