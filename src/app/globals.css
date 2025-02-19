@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&display=swap');
+
 html,
 body {
   max-width: 100vw;
@@ -15,4 +17,7 @@ body{
   --Azul_principal: #004aad;
   --Azul_escuro: #022759;
   --Cinza_claro: #d9d9d9;
+  --Skill_basica: #A3E635;
+  --Skill_intermediaria: #FACC15 ;
+  --Skill_avancada: #f91616 ;
 }

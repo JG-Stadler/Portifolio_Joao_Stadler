@@ -1,0 +1,43 @@
+.skills-section{
+    background-color: var(--Azul_escuro);
+    padding: 50px 0;
+    border-radius: 30% 0 30% 0;
+    text-align: center;
+    margin: 100px 0;
+}
+.skills-section h1{
+    font-weight: bolder;
+    font-family: 'Archivo Black',Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.my-skills{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,20%);
+    row-gap: 40px;
+    place-content: center;
+    margin: 50px 0;
+}
+.skill{
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    padding: 15px 0;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.587);
+    font-family: "Archivo Black", Arial, Helvetica, sans-serif;
+}
+.skill-level{
+    font-size: 1.3rem;
+}
+.Basic{
+    background-color: var(--Skill_basica);
+}
+.Intermediary{
+    background-color: var(--Skill_intermediaria);
+}
+.Advanced{
+    background-color: var(--Skill_avancada);
+}

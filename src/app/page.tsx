@@ -5,8 +5,8 @@ import MySkills from "./components/skills_section"
 export default function Page(){
     return(
         <div className="app">
-           {/* <Presentation/>
-           <AboutMe/> */}
+           <Presentation/>
+           <AboutMe/>
            <MySkills/>
         </div>
     )

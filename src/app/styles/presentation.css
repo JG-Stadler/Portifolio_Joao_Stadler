@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&display=swap');
-
 .presentation{
     background-image: url(../../../public/images/background_apresentação.jpg);
     background-size: cover;
     background-position: center top;
     justify-content: space-around;
     background-repeat: no-repeat;
-    /* height: 600px; */
 }
 @media (min-height: 600px) {
     .presentation{
