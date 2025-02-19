@@ -6,7 +6,7 @@
     height: 400px;
     object-fit: cover;
     border-radius: 40% 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.605);
+    box-shadow: 0 0 260px rgba(0, 0, 0, 0.605);
 }
 .about-me-txt{
     width: 600px;
