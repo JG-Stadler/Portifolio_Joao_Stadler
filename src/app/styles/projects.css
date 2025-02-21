@@ -1,0 +1,52 @@
+.projects-section{
+    background-color: var(--Azul_escuro);
+    padding: 100px;
+    border-radius: 30% 0;
+    margin: 50px 0;
+}
+.projects-section h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Archivo Black';
+    margin-bottom: 40px;
+}
+.project{
+    text-align: center;
+    background-color: var(--Azul_principal);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 30px 0;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.573);
+    transition: .5s;
+}
+.project:hover{
+    transform: scale(1.02);
+    background-color: var(--Azul_claro);
+    cursor: pointer;
+}
+.project img{
+    width: 240px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.project-name{
+    font-family: 'Anton','Archivo Black',Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: larger;
+    margin-top: 10px;
+}
+.technologies{
+    color: aliceblue;
+    font-size: smaller;
+}
+.projects-section main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: auto;
+    place-content: center;
+    grid-template-columns: repeat(3,30%);
+    row-gap: 40px;
+}

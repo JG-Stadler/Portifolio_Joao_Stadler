@@ -8,6 +8,7 @@
     padding: 10px 0;
     border-radius: 10px;
     transition: 1s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.397);
 }
 .btn-container>button{
     transition: .5s;
