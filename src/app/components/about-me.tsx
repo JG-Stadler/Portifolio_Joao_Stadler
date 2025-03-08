@@ -16,7 +16,7 @@ export default function AboutMe(){
                     utilizando PHP e MySQL.
                     Atualmente, busco sempre criar interfaces responsivas, intuitivas e eficientes, 
                     combinando performance e boa experiência do usuário. Meu objetivo é desenvolver soluções 
-                    novadoras e impactantes na web.
+                    inovadoras e impactantes na web.
                     🚀 Vamos criar algo incrível juntos?
                 </p>
             </main>

@@ -1,15 +1,35 @@
+"use client"
+import { useState } from "react";
+import ProjectInfo from "./project-info";
+
 interface Project{
+    p_id:number;
     img: string;
-    name:string;
+    ProjectName:string;
     technologies:string;
+    description:string
 }
 
-export default function Project({img, name, technologies}:Project){
+export default function Project({p_id,img, ProjectName, technologies,description}:Project){
+
+    const [Info_state,SetInfo_state] = useState("project-info");
+    
     return(
-        <div className="project">
+    <>
+        <div className="project" onClick={()=>SetInfo_state("project-info open")}>
             <img src={img} alt="Foto do projeto"/>
-            <h1 className="project-name">{name}</h1>
-            <p className="technologies">{technologies}</p>
+            <div className="info">
+                <h1 className="project-name">{ProjectName}</h1>
+                <p className="technologies">{technologies}</p>
+            </div>
         </div>
+        <ProjectInfo
+            i_state={Info_state}
+            p_id={p_id}
+            name={ProjectName}
+            img={img}
+            description={description}
+        />
+    </>
     )
 }

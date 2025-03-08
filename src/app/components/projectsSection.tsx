@@ -3,9 +3,13 @@ import '../styles/projects.css'
 const projects = 
 [
     {img:'./images/Fotos_Projetos/capa-extreme-jump-race.png',
-    name:'Extreme Jump Race',technologies:'TypeScript | HTML | CSS | BootsTrap'},
+    name:'Extreme Jump Race',technologies:'TypeScript | HTML | CSS | BootsTrap',
+    description: "blabla"
+},
     {img:'./images/Fotos_Projetos/capa-nutrigraos.png',
-    name:'Empório Nutrigrãos',technologies:'PHP | HTML | CSS | BootsTrap | Mysql'}
+    name:'Empório Nutrigrãos',technologies:'PHP | HTML | CSS | BootsTrap | Mysql',
+    description: "blabla"
+}
 ];
 
 export default function ProjectsSection(){
@@ -15,7 +19,8 @@ export default function ProjectsSection(){
             <main>
                 {
                     projects.map((project,i)=>(
-                        <Project key={i} img={project.img} name={project.name} technologies={project.technologies} />
+                        <Project key={i} p_id={i} img={project.img} ProjectName={project.name} technologies={project.technologies} 
+                        description={project.description}/>
                     ))
                 }
             </main>
