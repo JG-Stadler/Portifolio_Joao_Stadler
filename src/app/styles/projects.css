@@ -39,7 +39,7 @@
     display: grid;
     place-content: center;
 }
-.project:hover .project-info{
+.project:hover .info{
     transform: scaleY(1);
 }
 .project-name{
@@ -68,14 +68,14 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)scaleX(0);
+    transform: translate(-50%,-50%)scale(0);
     width: fit-content;
     height: fit-content;
     background-color: var(--Azul_principal);
     padding: 30px;
     border-radius: 20px;
     text-align: center;
-    transition: .5s;
+    transition: .1s;
     z-index: 3;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@
     border-radius: 10px;
 }
 .open{
-    transform: translate(-50%,-50%)scaleX(1);
+    transform: translate(-50%,-50%)scale(1);
 }
 .links{
     display: flex;

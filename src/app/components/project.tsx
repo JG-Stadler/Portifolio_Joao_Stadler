@@ -24,6 +24,7 @@ export default function Project({p_id,img, ProjectName, technologies,description
             </div>
         </div>
         <ProjectInfo
+            setValue={SetInfo_state}
             i_state={Info_state}
             p_id={p_id}
             name={ProjectName}
