@@ -6,9 +6,9 @@ import ProjectsSection from "./components/projectsSection"
 export default function Page(){
     return(
         <div className="app">
-           {/* <Presentation/>
+           <Presentation/>
            <AboutMe/>
-           <MySkills/> */}
+           <MySkills/>
            <ProjectsSection/>
         </div>
     )

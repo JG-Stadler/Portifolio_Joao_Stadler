@@ -14,7 +14,7 @@ const projects =
 
 export default function ProjectsSection(){
     return(
-        <section className="projects-section">
+        <section className="projects-section" id="projects">
             <h1>Meus Principais Projetos</h1>
             <main>
                 {

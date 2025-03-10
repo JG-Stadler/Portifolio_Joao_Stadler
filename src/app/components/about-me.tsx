@@ -3,7 +3,7 @@ import "../styles/aboutMe.css"
 export default function AboutMe(){
     return(
         <section className="about-me-section d-flex align-items-center
-        justify-content-around">
+        justify-content-around" id="about">
             <picture className="j_stadler-picture">
                 <img src="./images/jg-foto-principal.jpg" alt="Foto João Stadler" />
             </picture>
