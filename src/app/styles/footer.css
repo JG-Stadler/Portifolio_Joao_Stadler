@@ -1,0 +1,19 @@
+.main-page-footer{
+    background-color: var(--Azul_escuro);
+    padding: 30px 0;
+    margin-top: 100px;
+}
+.nav-list{
+    gap: 20px;
+}
+.nav-link{
+    color: var(--Cinza_claro);
+    transition: .5s;
+}
+.nav-link:hover{
+    color: #fff;
+    transform: translateY(-1px);
+}
+.copyright{
+    color: var(--Cinza_claro);
+}

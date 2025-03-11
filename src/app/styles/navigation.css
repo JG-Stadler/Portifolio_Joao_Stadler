@@ -62,5 +62,10 @@
     list-style: none;
 }
 .nav-link{
+    color: var(--Cinza_escuro);
+    transition: .5s;
+}
+.nav-link:hover{
     color: #fff;
+    transform: translateY(-1px);
 }
