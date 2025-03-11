@@ -7,10 +7,12 @@ interface Project{
     img: string;
     ProjectName:string;
     technologies:string;
-    description:string
+    description:string;
+    repository:string;
+    project_link:string;
 }
 
-export default function Project({p_id,img, ProjectName, technologies,description}:Project){
+export default function Project({project_link,repository,p_id,img, ProjectName, technologies,description}:Project){
 
     const [Info_state,SetInfo_state] = useState("project-info");
     
@@ -24,6 +26,8 @@ export default function Project({p_id,img, ProjectName, technologies,description
             </div>
         </div>
         <ProjectInfo
+            project_link={project_link}
+            repository={repository}
             setValue={SetInfo_state}
             i_state={Info_state}
             p_id={p_id}
