@@ -34,4 +34,4 @@ Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvid
 ## Contato
 
 📧 **Email:** [joaogbstadler@gmail.com](mailto:joaogbstadler@gmail.com)  
-🔗 **Portfólio Online:** []
+🔗 **Portfólio Online:** [https://portifolio-joao-stadler.vercel.app]
