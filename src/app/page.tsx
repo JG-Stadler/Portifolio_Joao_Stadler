@@ -7,11 +7,11 @@ import Footer from "./components/footer"
 export default function Page(){
     return(
         <div className="app">
-           {/* <Presentation/> */}
+           <Presentation/>
            <AboutMe/>
-           {/* <MySkills/>
+           <MySkills/>
            <ProjectsSection/>
-           <Footer/> */}
+           <Footer/>
         </div>
     )
 }

@@ -20,7 +20,7 @@ export default function ProjectsSection(){
     return(
         <section className="projects-section" id="projects">
             <h1>Meus Principais Projetos</h1>
-            <main>
+            <main className="projects-container">
                 {
                     projects.map((project,i)=>(
                         <Project key={i} p_id={i} img={project.img} ProjectName={project.name} technologies={project.technologies} 

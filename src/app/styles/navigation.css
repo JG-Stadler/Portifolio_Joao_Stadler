@@ -2,6 +2,7 @@
     position: fixed;
     top: 30px;
     left: 10px;
+    z-index: 3;
 }
 .btn-container{
     background-color: var(--Azul_secundario);
@@ -9,6 +10,7 @@
     border-radius: 10px;
     transition: 1s;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.397);
+    z-index: 3;
 }
 .btn-container>button{
     transition: .5s;
@@ -68,4 +70,19 @@
 .nav-link:hover{
     color: #fff;
     transform: translateY(-1px);
+}
+
+/* Opções de responsividade */
+
+@media (max-width:600px) {
+    .nav{
+        padding: 15px 5px;
+    }
+    .nav-list{
+        gap: 20px;
+    }
+    .nav-link{
+        font-size: small;
+        padding: 0;
+    }
 }

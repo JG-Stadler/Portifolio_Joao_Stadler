@@ -41,3 +41,33 @@
 .Advanced{
     background-color: var(--Skill_avancada);
 }
+
+@media (max-width:1030px) {
+    .my-skills{
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+@media (max-width:750px) {
+    .skills-section{
+        border-radius: 20% 0;
+    }
+    .skill{
+        text-align: center;
+        border-radius: 20px;
+    }
+    .my-skills{
+        grid-template-columns: 45% 45%;
+    }
+}
+@media (max-width:500px) {
+    .skills-section{
+        padding: 150px 0;
+        border-radius: 200px 0;
+    }
+    .my-skills{
+        grid-template-columns: 45%;
+    }
+    .skill p{
+        font-size: medium;
+    }
+}
