@@ -1,0 +1,40 @@
+.FadeRight{
+    animation: FadeRight 2s linear;
+}
+.FadeDown{
+    animation: FadeDown 1s linear;
+}
+.FadeUp{
+    animation: FadeUp 3s linear;
+}
+
+@keyframes FadeRight {
+    from{
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+@keyframes FadeDown {
+    from{
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}
+@keyframes FadeUp {
+    from{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}

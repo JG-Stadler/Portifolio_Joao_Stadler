@@ -4,7 +4,7 @@
     left: 10px;
 }
 .btn-container{
-    background-color: var(--Azul_escuro);
+    background-color: var(--Azul_secundario);
     padding: 10px 0;
     border-radius: 10px;
     transition: 1s;
@@ -28,7 +28,7 @@
     transform-origin: left;
     transition: .5s;
     transform: scaleX(0);
-    background-color: var(--Azul_escuro);
+    background-color: var(--Azul_secundario);
     border-radius: 0 10px 10px 0;
     padding: 5px 0;
 }
@@ -62,7 +62,7 @@
     list-style: none;
 }
 .nav-link{
-    color: var(--Cinza_escuro);
+    color: var(--Cinza_claro);
     transition: .5s;
 }
 .nav-link:hover{

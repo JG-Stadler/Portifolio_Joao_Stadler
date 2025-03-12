@@ -8,10 +8,10 @@ export default function Page(){
     return(
         <div className="app">
            <Presentation/>
-           <AboutMe/>
+           {/* <AboutMe/>
            <MySkills/>
            <ProjectsSection/>
-           <Footer/>
+           <Footer/> */}
         </div>
     )
 }

@@ -8,7 +8,7 @@ export default function Presentation(){
             <div className="hello">
                 <p className="m-0">Olá, eu sou</p>
                 <h1 className="m-0">João Stadler</h1>
-                <p className="ocupation">Web Developer</p>
+                <p className="ocupation m-0">Web Developer</p>
             </div>
             <img src="./images/tecnologias.png" alt="tecnologias"  className="technology"/>
         </header>
