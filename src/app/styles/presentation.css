@@ -4,8 +4,12 @@
     background-position: center top;
     justify-content: space-around;
     background-repeat: no-repeat;
-    height: 100vh;
-    max-height: 600px;
+    height: 500px;
+}
+@media (min-width:550px) {
+    .presentation{
+        height: 100vh;
+    }
 }
 .hello p{
     font-size: xx-large;
