@@ -1,6 +1,10 @@
 .about-me-section{
     margin: 200px 0;
 }
+.j_stadler-picture{
+    display: flex;
+    justify-content: center;
+}
 .j_stadler-picture img{
     width: 400px;
     height: 400px;
@@ -16,4 +20,34 @@
     font-weight: bolder;
     color: var(--Azul_principal);
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.192);
+}
+
+/* Opções de responsividade */
+
+@media (max-width:1050px) {
+    .about-me-section{
+        flex-direction: column-reverse;
+        margin: 100px 0;
+    }
+    .about-title{
+        display: block;
+    }
+    .j_stadler-picture{
+        align-self: flex-end;
+    }
+    .j_stadler-picture img{
+        width: 700px;
+        max-width: 90%;
+    }
+    .about-me-txt{
+        text-align: justify;
+        align-self: flex-start;
+        margin-left: 30px;
+    }
+}
+@media (max-width:500px) {
+    .about-me-txt p{
+        font-size: smaller;
+        font-weight: bolder;
+    }
 }
