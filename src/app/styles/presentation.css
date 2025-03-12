@@ -4,7 +4,7 @@
     background-position: center top;
     justify-content: space-around;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
 }
 @media (min-width:550px) {
     .presentation{
@@ -101,6 +101,6 @@
     }
     .technology{
         left: 50%;
-        width: 150px;
+        width: 200px;
     }
 }
