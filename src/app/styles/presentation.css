@@ -104,3 +104,9 @@
         width: 200px;
     }
 }
+@media (max-width:400px) {
+    .technology{
+        left: 45%;
+        width: 150px;
+    }
+}

@@ -5,6 +5,7 @@
 }
 .nav-list-ft{
     gap: 20px;
+    list-style: none;
 }
 .nav-link{
     color: var(--Cinza_claro);
