@@ -13,6 +13,12 @@ const projects =
     description: "Empório Nutrigraos é uma loja de produtos naturais que oferece uma grande variedade de alimentos saudáveis a granel. Com um sistema prático e intuitivo, os clientes podem escolher seus produtos online e finalizar a compra diretamente pelo WhatsApp. Desenvolvido com PHP e MySQL, o site garante uma experiência rápida e eficiente para quem busca uma alimentação equilibrada. 🌿🥜",
     repository:"https://github.com/JG-Stadler/Site-Emporio-Nutrigraos",
     project_link:"https://emporionutrigraos.site"
+},
+    {img:'./images/Fotos_Projetos/Vaquinha-terceirao.png',
+        name:'Vaquinha Formatura Terceirão 2024',technologies:'HTML | CSS | JavaScript | BootsTrap',
+        description: "O Vaquinha do Terceirão foi um projeto desenvolvido para ajudar na arrecadação de fundos para a formatura da minha turma em 2024. O site funcionou como uma plataforma intuitiva e acessível, onde amigos, familiares e apoiadores puderam contribuir de forma rápida e segura. Com um design simples e direto, os doadores podiam acompanhar o progresso das arrecadações e fazer suas contribuições via PIX ou outras formas de pagamento. Esse projeto não só facilitou a captação de recursos, mas também incentivou o espírito de colaboração e união entre os estudantes. Graças ao Vaquinha do Terceirão, conseguimos transformar nosso sonho da formatura em realidade! 🚀🎓",
+        repository:"https://github.com/JG-Stadler/Formatura3002ceft-vaquinha",
+        project_link:"https://jg-stadler.github.io/Formatura3002ceft-vaquinha/"
 }
 ];
 
