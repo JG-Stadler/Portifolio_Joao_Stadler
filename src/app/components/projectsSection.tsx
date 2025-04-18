@@ -27,7 +27,7 @@ const projects =
         project_link:"https://loopstudios-landingpage-reactjs.netlify.app"
     },
     {img:'./images/Fotos_Projetos/calculadora-idade.png',
-        name:'LoopStudio Landing Page',technologies:'HTML | CSS | JavaScript',
+        name:'Calculadora de idade',technologies:'HTML | CSS | JavaScript',
         description: "Projeto simples em JavaScript que calcula a idade do usuário com base na data de nascimento informada. Ideal para praticar lógica de programação, manipulação de datas e interação com formulários no navegador.",
         repository:"https://github.com/JG-Stadler/Calculadora-de-idade",
         project_link:"https://jg-stadler.github.io/Calculadora-de-idade/"
