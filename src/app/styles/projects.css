@@ -89,7 +89,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.451);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.451);
     width: 500px;
-    max-width: 90vw;
+    max-width: 95vw;
 }
 .project-info img{
     width: 250px;
@@ -104,6 +104,8 @@
     justify-content: space-around;
     width: 100%;
     margin: 20px 0 30px 0;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .project-repository-link,.project-link{
     color: #fff;
