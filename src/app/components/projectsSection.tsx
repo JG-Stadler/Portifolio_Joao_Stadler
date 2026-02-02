@@ -3,16 +3,16 @@ import '../styles/projects.css'
 const projects = 
 [
     {img:'./images/Fotos_Projetos/capa-extreme-jump-race.png',
-    name:'Extreme Jump Race',technologies:'TypeScript | HTML | CSS | BootsTrap',
-    description: "Extreme Jump Race é um jogo 2D em estilo 8 bits onde o jogador controla um robô ágil que precisa saltar sobre carros em movimento para avançar o máximo possível. Desenvolvido com HTML, CSS e TypeScript, o game combina reflexos rápidos com um design retrô e desafiador. 🚀🎮",
-    repository:"https://github.com/JG-Stadler/Extreme-Jump-Race",
-    project_link:"https://jg-stadler.github.io/Extreme-Jump-Race/"
+        name:'Extreme Jump Race',technologies:'TypeScript | HTML | CSS | BootsTrap',
+        description: "Extreme Jump Race é um jogo 2D em estilo 8 bits onde o jogador controla um robô ágil que precisa saltar sobre carros em movimento para avançar o máximo possível. Desenvolvido com HTML, CSS e TypeScript, o game combina reflexos rápidos com um design retrô e desafiador. 🚀🎮",
+        repository:"https://github.com/JG-Stadler/Extreme-Jump-Race",
+        project_link:"https://jg-stadler.github.io/Extreme-Jump-Race/"
     },
     {img:'./images/Fotos_Projetos/capa-nutrigraos.png',
-    name:'Empório Nutrigrãos',technologies:'PHP | HTML | CSS | BootsTrap | Mysql',
-    description: "Empório Nutrigraos é uma loja de produtos naturais que oferece uma grande variedade de alimentos saudáveis a granel. Com um sistema prático e intuitivo, os clientes podem escolher seus produtos online e finalizar a compra diretamente pelo WhatsApp. Desenvolvido com PHP e MySQL, o site garante uma experiência rápida e eficiente para quem busca uma alimentação equilibrada. 🌿🥜",
-    repository:"https://github.com/JG-Stadler/Site-Emporio-Nutrigraos",
-    project_link:"https://emporionutrigraos.site"
+        name:'Empório Nutrigrãos',technologies:'PHP | HTML | CSS | BootsTrap | Mysql',
+        description: "Empório Nutrigraos é uma loja de produtos naturais que oferece uma grande variedade de alimentos saudáveis a granel. Com um sistema prático e intuitivo, os clientes podem escolher seus produtos online e finalizar a compra diretamente pelo WhatsApp. Desenvolvido com PHP e MySQL, o site garante uma experiência rápida e eficiente para quem busca uma alimentação equilibrada. 🌿🥜",
+        repository:"https://github.com/JG-Stadler/Site-Emporio-Nutrigraos",
+        project_link:"https://emporionutrigraos.site"
     },
     {img:'./images/Fotos_Projetos/Vaquinha-terceirao.png',
         name:'Vaquinha Formatura Terceirão 2024',technologies:'HTML | CSS | JavaScript | BootsTrap',
@@ -31,6 +31,12 @@ const projects =
         description: "Projeto simples em JavaScript que calcula a idade do usuário com base na data de nascimento informada. Ideal para praticar lógica de programação, manipulação de datas e interação com formulários no navegador.",
         repository:"https://github.com/JG-Stadler/Calculadora-de-idade",
         project_link:"https://jg-stadler.github.io/Calculadora-de-idade/"
+    },
+    {img:'./images/Fotos_projetos/pokedex.png',
+        name:'Pokedex',technologies:'HTML | CSS | Bootstrap | JavaScript',
+        description: "Projeto web interativo desenvolvido em HTML5, CSS3 e JavaScript (ES6+), que consome a PokeAPI para exibir informações de Pokémon de forma dinâmica e responsiva. Nesta aplicação, o usuário pode pesquisar Pokémon por nome e visualizar detalhes como imagem e tipo diretamente da API, utilizando requisições assíncronas com fetch e async/await. O projeto explora a manipulação do DOM, tratamento de dados e renderização dinâmica, além de uma interface simples e intuitiva construída com Bootstrap.",
+        repository:"https://github.com/JG-Stadler/Javascript-Pokedex",
+        project_link:"jg-stadler.github.io/Javascript-Pokedex/"
     }
 ];
 
