@@ -1,7 +1,7 @@
 .presentation{
-    background-image: url(../../../public/images/background_apresentação.jpg);
+    /* background-image: url(../../../public/images/background_apresentação.jpg);
     background-size: cover;
-    background-position: center top;
+    background-position: center top; */
     justify-content: space-around;
     background-repeat: no-repeat;
     height: 600px;
@@ -13,14 +13,14 @@
 }
 .hello p{
     font-size: xx-large;
-    color: black;
+    color: var(--Cinza_escuro);
     font-family: 'Archivo Black';
     text-indent: 25px;
 }
 .hello h1{
     font-size: 7rem;
     font-family: 'Anton';
-    color: var(--Azul_principal);
+    color: var(--Cinza_claro);
     line-height: 100px;
     text-wrap: wrap;
 }

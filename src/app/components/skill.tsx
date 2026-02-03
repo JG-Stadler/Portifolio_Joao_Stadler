@@ -4,11 +4,10 @@ interface IconProps {
     icon: ReactNode;
     label:string;
     level:string;
-    skill_class:string;
 }
-export default function Skill({icon, label, level, skill_class}:IconProps){
+export default function Skill({icon, label, level}:IconProps){
     return(
-        <div className={`skill ${skill_class}`}>
+        <div className="skill">
             {icon}
             <p className="skill-name m-0">{label}</p>
             <p className="skill-level m-0">{level}</p>

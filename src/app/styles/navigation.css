@@ -43,8 +43,7 @@
     border-radius: 10px 0 0 10px;
 }
 .activated-button>button{
-    animation: Spin .5s linear;
-    transform: translateX(10PX);
+    transform: translateX(5PX);
 }
 .activated-button #bar1{
     transform: rotate(45deg)translateY(9px);
@@ -54,13 +53,6 @@
 }
 .activated-button #bar3{
     transform: rotate(-45deg)translateY(-9px);
-}
-@keyframes Spin {
-   from{
-    transform: rotate(0);
-   }to{
-    transform: rotate(360deg)translateX(10px);;
-   }
 }
 .nav-list{
     list-style: none;

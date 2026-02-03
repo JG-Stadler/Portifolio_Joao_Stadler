@@ -22,24 +22,16 @@
 }
 .skill{
     text-align: center;
-    border-radius: 20px;
+    border-radius: 0 20px 0 0;
+    border: solid 1px var(--Azul_claro);
+    border-top: none;
+    border-right: none;
     width: 200px;
     padding: 15px 0;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.587);
     font-family: "Archivo Black", Arial, Helvetica, sans-serif;
-}
-.skill-level{
-    font-size: 1.3rem;
-}
-.Basic{
-    background-color: var(--Skill_basica);
-}
-.Intermediary{
-    background-color: var(--Skill_intermediaria);
-}
-.Advanced{
-    background-color: var(--Skill_avancada);
+    background-color: var(--Azul_secundario);
 }
 
 @media (max-width:1030px) {

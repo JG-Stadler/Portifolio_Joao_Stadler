@@ -6,20 +6,34 @@ body {
   min-height: 100vh;
 }
 body{
-  background-color: var(--Cinza_claro);
+  background-color: var(--Azul_principal);
 }
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-:root{
-  --Azul_principal: #004aad;
-  --Azul_secundario: #155bb8;
-  --Azul_escuro: #022759;
-  --Azul_claro: #3e88e8;
-  --Cinza_claro: #d9d9d9;
-  --Skill_basica: #A3E635;
-  --Skill_intermediaria: #FACC15 ;
-  --Skill_avancada: #f91616 ;
+:root {
+  --Azul_principal: #0F172A;   /* fundo principal (slate-900) */
+  --Azul_secundario: #1E293B;  /* cards / seções */
+  --Azul_escuro: #020617;      /* fundo mais profundo */
+  --Azul_claro: #38BDF8;       /* azul neon (destaque) */
+  --Cinza_claro: #E5E7EB;      /* textos claros */
+  --Cinza_escuro: #5a687c;
+
+  --Skill_basica: #22C55E;     /* verde moderno */
+  --Skill_intermediaria: #FACC15;
+  --Skill_avancada: #EF4444;
 }
+/*
+ Paleta alternativa
+
+ --Azul_principal: #004aad;
+ --Azul_secundario: #155bb8;
+ --Azul_escuro: #022759;
+ --Azul_claro: #3e88e8;
+ --Cinza_claro: #d9d9d9;
+ --Skill_basica: #A3E635;
+ --Skill_intermediaria: #FACC15 ;
+ --Skill_avancada: #f91616 ;
+*/

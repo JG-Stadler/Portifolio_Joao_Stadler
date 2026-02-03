@@ -12,14 +12,16 @@
     border-radius: 40% 30px;
     box-shadow: 0 0 260px rgba(0, 0, 0, 0.605);
 }
-.about-me-txt{
+.about-me-txt{ /*seção de informações sobre*/
     width: 600px;
     max-width: 90vw;
+    color: var(--Cinza_claro);
 }
-.about-me-txt h1{
+.about-me-txt h1{ /*Titulo da seção*/
     font-weight: bolder;
     color: var(--Azul_principal);
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.192);
+    color: var(--Cinza_escuro);
 }
 
 /* Opções de responsividade */
