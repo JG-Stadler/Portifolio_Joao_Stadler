@@ -11,6 +11,11 @@
     object-fit: cover;
     border-radius: 40% 30px;
     box-shadow: 0 0 260px rgba(0, 0, 0, 0.605);
+    filter: grayscale();
+    transition: filter .5s;
+}
+.j_stadler-picture img:hover{
+    filter: grayscale(0);
 }
 .about-me-txt{ /*seção de informações sobre*/
     width: 600px;

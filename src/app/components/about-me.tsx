@@ -10,14 +10,13 @@ export default function AboutMe(){
             <main className="about-me-txt">
                 <h1>Muito prazer! Eu me chamo <span>João Gabriel Rodrigues Stadler</span>.</h1>
                 <p>
-                    sou desenvolvedor web com foco em front-end. Estudo programação desde os 14 anos e,
-                    ao longo dos anos, venho aprimorando minhas habilidades em tecnologias como HTML, CSS,
-                    JavaScript, TypeScript e frameworks modernos. Além disso, tenho experiência com back-end
-                    utilizando PHP e MySQL.
-                    Atualmente, busco sempre criar interfaces responsivas, intuitivas e eficientes, 
-                    combinando performance e boa experiência do usuário. Meu objetivo é desenvolver soluções 
-                    inovadoras e impactantes na web.
-                    🚀 Vamos criar algo incrível juntos?
+                    Sou desenvolvedor web apaixonado pelo que faço. <br /> 
+                    Conheci a programação aos 14 anos, quando estava buscando um rumo para o meu futuro.
+                    Desde então, venho me aperfeiçoando a cada dia, criando sites e sistemas cada vez mais completos. <br />
+                    Buscando mais conhecimento, formei-me técnico em Informática em 2025 pela FAETEC e, atualmente, 
+                    estou cursando Análise e Desenvolvimento de Sistemas pela Estácio.
+                    Meu maior objetivo hoje é usar meu conhecimento para contribuir com a criação de sistemas que possam 
+                    oferecer aos usuários uma experiência intuitiva, incrível e confortável.
                 </p>
             </main>
         </section>

@@ -31,6 +31,7 @@
     height: 100%;
     object-fit: cover;
     object-position: top center;
+    filter: brightness(0.7);
 }
 .info{
     transition: .2s;
@@ -111,7 +112,6 @@
     font-size: small;
     grid-column: 2;
     grid-row: 1;
-    /* align-self: flex-start; */
     font-size: larger;
     padding: 0 !important;
     text-align: justify;
@@ -142,6 +142,9 @@
     transition: .5s;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.272);
 }
+.project-repository-link:hover,.project-link:hover{
+    transform: translateY(-5px);
+}
 .close-window{
     background: none;
     border: none;
@@ -156,10 +159,14 @@
 
 @media (max-width:1150px) {
     .projects-container{
-        grid-template-columns: 45% 45% !important;
+        grid-template-columns: repeat(2,auto) !important;
     }
 }
 @media (max-width:850px) {
+    .projects-section{
+        border-radius: 0;
+        background: linear-gradient(var(--Azul_principal),var(--Azul_escuro) 90%,var(--Azul_principal));
+    }
     .project{
         width: 200px;
         height: 100px;
@@ -167,24 +174,42 @@
     .project:hover .info{
         display: none;
     }
+    .project{
+        width: 180px;
+        height: 90px;
+        border-radius: 5px;
+    }
 }
-@media (max-width:620px) {
+@media (max-width:420px) {
     .projects-container{
         display: flex !important;
         flex-direction: column;
     }
-    .project{
-        width: 250px;
-        height: 15,0px;
+}
+@media (max-width:1000px) {
+    .project-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+        /* padding-top: 100px; */
+    }
+    .project-picture{
+        width: 500px;
+        max-width: 90%;
+        align-self: center;
+        margin-top: 100px;
+    }
+    .links{
+        justify-content: center;
+        gap: 20px;
     }
 }
-@media (max-width:620px) {
-    .projects-container{
-        display: flex !important;
-        flex-direction: column;
+@media (max-width:400px) {
+    .project-description{
+        font-size: small;
     }
-    .project{
-        width: 250px;
-        height: 15,0px;
+    .project-picture>h1{
+        font-size: medium;
     }
 }

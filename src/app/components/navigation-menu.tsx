@@ -36,7 +36,7 @@ export default function NavigationMenu(){
                 <ul className="nav-list d-flex align-items-center p-0 m-0">
                     <li className="nav-item"><a href="https://www.linkedin.com/in/joão-stadler-988619243" className="nav-link" target="_blank">Linkedin</a></li>
                     <li className="nav-item"><a href="https://github.com/JG-Stadler" className="nav-link" target="_blank">GitHub</a></li>
-                    <li className="nav-item"><a href="https://drive.google.com/file/d/1x6cI0P4qiYdfqfPLbNeVrdNmB7xTxBqw/view?usp=drive_link" className="nav-link" target="_blank">Curriculo</a></li>
+                    <li className="nav-item"><a href="https://drive.google.com/file/d/1gTrUOKJhsJJd59gw1u6U1hz15p3qwbmZ/view?usp=sharing" className="nav-link" target="_blank">Curriculo</a></li>
                     <li className="nav-item"><button className="nav-link" onClick={()=>scrollToSection("about")}>Sobre Mim</button></li>
                     <li className="nav-item"><button className="nav-link" onClick={()=>scrollToSection("projects")}>Projetos</button></li>
                 </ul>
