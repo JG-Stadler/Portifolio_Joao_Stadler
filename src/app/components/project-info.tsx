@@ -12,13 +12,18 @@ interface ProjectInfo{
 export default function ProjectInfo({repository,project_link,i_state,p_id,name,img,description,setValue}:ProjectInfo){
     return(
         <div className={i_state} id={String(p_id)}>
+            {/* Botão para fechar a janela */}
             <button className="close-window align-self-end" onClick={()=>setValue("project-info")}>X</button>
-            <h1 className="m-0">{name}</h1>
+            {/* Informações do projeto */}
+            <picture className="project-picture">
+                <img src={img} alt="Foto do projeto" />
+                <h1 className="m-0">{name}</h1>
+            </picture>
+            {/* Links de vizualização do projeto */}
             <div className="links">
                 <a href={project_link} className="project-link" target="_blank">Visualizar projeto</a>
                 <a href={repository} className="project-repository-link" target="_blank">Acessar Repositório</a>
             </div>
-            <img src={img} alt="" />
             <p className="project-description m-0">{description}</p>
         </div>
     )

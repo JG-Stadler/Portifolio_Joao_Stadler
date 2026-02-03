@@ -68,7 +68,7 @@
     row-gap: 40px;
 }
 
-/* Janela de informações do produto */
+/* Janela de informações do Projeto */
 
 .project-info{
     position: fixed;
@@ -80,19 +80,29 @@
     padding: 30px;
     text-align: center;
     transition: .3s;
-    background-color: var(--Azul_escuro);
+    background: url(../../../public/images/background_noite_estrelada.png);
     z-index: 3;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.451);
     display: grid;
-    grid-template-rows: 50% 10%;
+    grid-template-rows: 50% 20%;
     grid-template-columns: 60% 40%;
     align-items: center;
     justify-items: center;
     place-content: center;
 }
-.project-info>h1{ /*Nome do projeto*/
-    grid-row: 2;
+.project-picture{
+    grid-row: 1/3;
     grid-column: 1;
+    max-width: 90%;
+    align-self: flex-start;
+    border-radius: 10px;
+}
+.project-picture img{
+    width: 100%;
+    border-radius: 10px;
+}
+.project-picture>h1{
+    padding: 10px 0;
 }
 .project-description{
     color: #fff;
@@ -101,15 +111,10 @@
     font-size: small;
     grid-column: 2;
     grid-row: 1;
-    align-self: flex-start;
+    /* align-self: flex-start; */
     font-size: larger;
     padding: 0 !important;
-}
-.project-info img{
-    height: 100%;
-    border-radius: 10px;
-    grid-column: 1;
-    grid-row: 1;
+    text-align: justify;
 }
 .open{
     transform: translate(-50%,-50%)scale(1);
@@ -125,10 +130,11 @@
     grid-column: 2;
     grid-row: 2;
 }
-.project-repository-link,.project-link{
+.project-repository-link,.project-link{ /*Links de acesso ao projeto*/
     color: #fff;
     text-decoration: none;
-    background-color: var(--Azul_claro);
+    box-shadow: 0 30px 20px var(--Azul_claro);
+    background: linear-gradient(40deg,var(--Azul_claro),var(--Azul_escuro));
     width: 200px;
     padding: 15px 0;
     border-radius: 5px;
@@ -146,11 +152,6 @@
     top: 5px;
     right: 30px;
 }
-.project-repository-link:hover,.project-link:hover{
-    color: var(--Azul_principal);
-    background-color: #fff;
-}
-
 /* Adaptação responsiva */
 
 @media (max-width:1150px) {
