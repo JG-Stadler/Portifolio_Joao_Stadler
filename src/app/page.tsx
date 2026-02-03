@@ -8,9 +8,9 @@ export default function Page(){
     return(
         <div className="app">
            <Presentation/>
+            <ProjectsSection/>
            <AboutMe/>
            <MySkills/>
-           <ProjectsSection/>
            <Footer/>
         </div>
     )

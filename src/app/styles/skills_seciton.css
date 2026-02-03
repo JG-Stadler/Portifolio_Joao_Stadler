@@ -11,14 +11,14 @@
     color: #fff;
 }
 .my-skills{
+    margin: 50px auto;
+    width: 95%;
     display: grid;
-    align-items: center;
-    justify-items: center;
+    grid-template-columns: repeat(4,auto);
     grid-template-rows: auto;
-    grid-template-columns: repeat(4,20%);
-    row-gap: 40px;
     place-content: center;
-    margin: 50px 0;
+    gap: 30px;
+    justify-items: center;
 }
 .skill{
     text-align: center;
@@ -34,18 +34,14 @@
     background-color: var(--Azul_secundario);
 }
 
-@media (max-width:1030px) {
+@media (max-width:1000px) {
     .my-skills{
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: repeat(2,auto);
     }
 }
 @media (max-width:750px) {
     .skills-section{
         border-radius: 20% 0;
-    }
-    .skill{
-        text-align: center;
-        border-radius: 20px;
     }
     .my-skills{
         grid-template-columns: 45% 45%;
