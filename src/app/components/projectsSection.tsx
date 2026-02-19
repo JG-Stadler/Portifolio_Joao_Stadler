@@ -37,6 +37,12 @@ const projects =
         description: "Projeto web interativo desenvolvido em HTML5, CSS3 e JavaScript (ES6+), que consome a PokeAPI para exibir informações de Pokémon de forma dinâmica e responsiva. Nesta aplicação, o usuário pode pesquisar Pokémon por nome e visualizar detalhes como imagem e tipo diretamente da API, utilizando requisições assíncronas com fetch e async/await. O projeto explora a manipulação do DOM, tratamento de dados e renderização dinâmica, além de uma interface simples e intuitiva construída com Bootstrap.",
         repository:"https://github.com/JG-Stadler/Javascript-Pokedex",
         project_link:"jg-stadler.github.io/Javascript-Pokedex/"
+    },
+    {img:'./images/Fotos_projetos/gerador-de-link-zap.png',
+        name:'Gerador de link para Whatsapp',technologies:'HTML | CSS | JavaScript',
+        description: "Projeto web simples e funcional que permite ao usuário criar links personalizados para iniciar conversas no WhatsApp com qualquer número de telefone. Desenvolvido com HTML, CSS e JavaScript, o gerador facilita a comunicação direta — ideal para negócios, atendimento e compartilhamento rápido sem necessidade de salvar contatos.",
+        repository:"https://github.com/JG-Stadler/Gerador-de-link-para-Whatsapp",
+        project_link:"https://jg-stadler.github.io/Gerador-de-link-para-Whatsapp/"
     }
 ];
 
