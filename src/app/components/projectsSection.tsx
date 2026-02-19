@@ -38,7 +38,7 @@ const projects =
         repository:"https://github.com/JG-Stadler/Javascript-Pokedex",
         project_link:"jg-stadler.github.io/Javascript-Pokedex/"
     },
-    {img:'./images/Fotos_projetos/gerador-de-link-zap.png',
+    {img:'./images/Fotos_Projetos/gerador-de-link-zap.png',
         name:'Gerador de link para Whatsapp',technologies:'HTML | CSS | JavaScript',
         description: "Projeto web simples e funcional que permite ao usuário criar links personalizados para iniciar conversas no WhatsApp com qualquer número de telefone. Desenvolvido com HTML, CSS e JavaScript, o gerador facilita a comunicação direta — ideal para negócios, atendimento e compartilhamento rápido sem necessidade de salvar contatos.",
         repository:"https://github.com/JG-Stadler/Gerador-de-link-para-Whatsapp",
