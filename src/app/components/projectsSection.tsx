@@ -8,15 +8,9 @@ const projects =
         repository:"https://github.com/JG-Stadler/Extreme-Jump-Race",
         project_link:"https://jg-stadler.github.io/Extreme-Jump-Race/"
     },
-    {img:'./images/Fotos_Projetos/capa-nutrigraos.png',
-        name:'Empório Nutrigrãos',technologies:'PHP | HTML | CSS | BootsTrap | Mysql',
-        description: "Empório Nutrigraos é uma loja de produtos naturais que oferece uma grande variedade de alimentos saudáveis a granel. Com um sistema prático e intuitivo, os clientes podem escolher seus produtos online e finalizar a compra diretamente pelo WhatsApp. Desenvolvido com PHP e MySQL, o site garante uma experiência rápida e eficiente para quem busca uma alimentação equilibrada. 🌿🥜",
-        repository:"https://github.com/JG-Stadler/Site-Emporio-Nutrigraos",
-        project_link:"https://emporionutrigraos.site"
-    },
     {img:'./images/Fotos_Projetos/Vaquinha-terceirao.png',
         name:'Vaquinha Formatura Terceirão 2024',technologies:'HTML | CSS | JavaScript | BootsTrap',
-        description: "O Vaquinha do Terceirão foi um projeto desenvolvido para ajudar na arrecadação de fundos para a formatura da minha turma em 2024. O site funcionou como uma plataforma intuitiva e acessível, onde amigos, familiares e apoiadores puderam contribuir de forma rápida e segura. Com um design simples e direto, os doadores podiam acompanhar o progresso das arrecadações e fazer suas contribuições via PIX ou outras formas de pagamento. Esse projeto não só facilitou a captação de recursos, mas também incentivou o espírito de colaboração e união entre os estudantes. Graças ao Vaquinha do Terceirão, conseguimos transformar nosso sonho da formatura em realidade! 🚀🎓",
+        description: "O **Vaquinha do Terceirão** foi um site simples e intuitivo criado para arrecadar fundos para a formatura da turma de 2024. A plataforma permitiu que amigos e familiares contribuíssem de forma rápida e segura, acompanhando o progresso das doações via PIX e outros meios. O projeto fortaleceu a colaboração entre os estudantes e tornou possível a realização da formatura. 🎓🚀",
         repository:"https://github.com/JG-Stadler/Formatura3002ceft-vaquinha",
         project_link:"https://jg-stadler.github.io/Formatura3002ceft-vaquinha/"
     },
@@ -36,7 +30,7 @@ const projects =
         name:'Pokedex',technologies:'HTML | CSS | Bootstrap | JavaScript',
         description: "Projeto web interativo desenvolvido em HTML5, CSS3 e JavaScript (ES6+), que consome a PokeAPI para exibir informações de Pokémon de forma dinâmica e responsiva. Nesta aplicação, o usuário pode pesquisar Pokémon por nome e visualizar detalhes como imagem e tipo diretamente da API, utilizando requisições assíncronas com fetch e async/await. O projeto explora a manipulação do DOM, tratamento de dados e renderização dinâmica, além de uma interface simples e intuitiva construída com Bootstrap.",
         repository:"https://github.com/JG-Stadler/Javascript-Pokedex",
-        project_link:"jg-stadler.github.io/Javascript-Pokedex/"
+        project_link:"https://jg-stadler.github.io/Javascript-Pokedex/"
     },
     {img:'./images/Fotos_Projetos/gerador-de-link-zap.png',
         name:'Gerador de link para Whatsapp',technologies:'HTML | CSS | JavaScript',
